@@ -19,3 +19,4 @@ jobs:
       # Build
       - run: npm i
       - run: npm run build
+      - deploy-branch: gh-pages
